@@ -1,0 +1,17 @@
+.filters {
+    display: flex;
+    margin: 0 -15px;
+}
+
+.filters__col {
+    width: 25%;
+    flex-basis: 25%;
+    padding: 0 15px;
+}
+
+.filters__switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}

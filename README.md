@@ -3,9 +3,10 @@
 ## Setup
 
 - Run `npm install` / `yarn install`
-- Run `npm run start-dummy-api` / `yarn start-dummy-api`
-
-This will run an http server with a single endpoint `http://localhost:3000/trades`. This is a dataset representing buying and selling of products, typically oil, gas, etc.
+- Run server `npm run start:server` / `yarn start:server` ..
+- Run React Application `npm run start` / `yarn start`
+- Run React Application with server `npm run dev` / `yarn dev`
+- Run Tests `npm run test` / `yarn test`
 
 ## Step 1 - Display Trades in a filterable list
 

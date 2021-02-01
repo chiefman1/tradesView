@@ -1,19 +1,55 @@
 {
-  "name": "tradesView",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "json-server --watch db.json --port 3000\n",
-    "test": "jest"
-  },
-  "keywords": [],
-  "author": "Dmitry Bakhtin",
-  "license": "MIT",
+  "name": "trades-view",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "@material-ui/core": "^4.11.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.6.1",
+    "node-fetch": "^2.6.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "typescript": "^4.0.3",
+    "web-vitals": "^0.2.4"
   },
   "devDependencies": {
+    "@types/enzyme": "^3.10.8",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
+    "concurrently": "^5.3.0",
     "json-server": "^0.16.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watchAll=false",
+    "eject": "react-scripts eject",
+    "start:server": "json-server --watch db.json --port 8080",
+    "dev": "concurrently --kill-others \"npm run start\" \"npm run start:server\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
