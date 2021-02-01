@@ -6,9 +6,11 @@ A React Application that shows a table of trades with filters on the top
 ## Setup
 
 - Run `npm install` / `yarn install`
+- Run React Application with server `npm run dev` / `yarn dev`
+
+**Other scripts**
 - Run server `npm run start:server` / `yarn start:server` ..
 - Run React Application `npm run start` / `yarn start`
-- Run React Application with server `npm run dev` / `yarn dev`
 - Run Tests `npm run test` / `yarn test`
 
 ## Step 1 - Display Trades in a filterable list
