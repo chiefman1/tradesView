@@ -1,0 +1,19 @@
+{
+  "name": "tradesView",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3000\n",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Dmitry Bakhtin",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  }
+}
