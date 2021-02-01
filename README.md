@@ -1,4 +1,7 @@
 # TradesView
+A React Application that shows a table of trades with filters on the top
+
+![Trades View Screenshot](https://github.com/chiefman1/tradesView/tree/main/README/tradesView.png)
 
 ## Setup
 
